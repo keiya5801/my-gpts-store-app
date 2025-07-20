@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>GPTs ゲームストア</h1>
+        <h1>私の最強のGPTs ゲームストア！</h1>
         {/* 5. お皿に載っているゲームを一つずつ取り出して表示する */}
         <ul>
           {games.map((game) => (
