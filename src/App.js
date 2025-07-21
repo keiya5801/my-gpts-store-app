@@ -29,6 +29,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>GPTs ゲームストア！</h1>
+        {/* ↓ この一行を追加！ */}
+        <p>AIが作った面白いゲームで遊ぼう！</p>
         {/* 5. お皿に載っているゲームを一つずつ取り出して表示する */}
         <ul>
           {games.map((game) => (
